@@ -170,15 +170,16 @@ ul li {
 }
 
 .splash__content--clients {
+    height: 32px;
     display: flex;
     justify-content: flex-end;
     flex-direction: row-reverse;
     align-items: center;
+    border: red 1px solid;
 }
 
 .splash__content--client {
-    width: 15%;
-    padding-right: 16px;
+    height: 100%;
     filter: grayscale(100%);
     opacity: 70%;
 }
