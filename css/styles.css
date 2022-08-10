@@ -106,4 +106,21 @@ ul li {
     color: var(--bg-accent-color);
 }
 
-.splash__content--wrapper
+.splash__content--wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.splash__content--clients {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.splash__content--client {
+    width: 25%;
+    padding: 4px;
+    filter: grayscale(100%);
+}
