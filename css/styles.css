@@ -175,13 +175,13 @@ ul li {
     justify-content: flex-end;
     flex-direction: row-reverse;
     align-items: center;
-    border: red 1px solid;
 }
 
 .splash__content--client {
     height: 100%;
     filter: grayscale(100%);
-    opacity: 70%;
+    opacity: 50%;
+    padding-right: 16px;
 }
 
 .splash__content--figure {
