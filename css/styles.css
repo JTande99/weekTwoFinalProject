@@ -31,12 +31,18 @@ a {
 a:hover {
     color: var(--text-color-primary);
 }
+
+.text--purple {
+    color: var(--text-color-primary);
+}
+
 /*
 figure img {
     height: 100%;
     width: 100%;
 }
 */
+
 h3 {
     font-weight: 900;
 }
