@@ -67,10 +67,35 @@ nav {
 
 ul li {
     list-style-type: none;
-    padding: 20px;
+    padding-left: 32px;
 }
 
 .nav__link--list {
     display: flex;
     font-weight: 600;
+}
+
+.nav__link--anchor {
+    padding-bottom: 4px;
+    border-bottom: #fff 2px solid;
+    transition: all 250ms ease;
+}
+
+.nav__link--anchor:hover {
+    padding-bottom: 2px;
+    border-bottom: var(--text-color-primary) 2px solid;
+}
+
+.nav__account--button {
+    color: white;
+    background-color: var(--bg-accent-color);
+    padding: 12px 24px;
+    border-radius: 24px;
+    border: var(--bg-accent-color) 2px solid;
+    transition: all 250ms ease;
+}
+
+.nav__account--button:hover {
+    background-color: #fff;
+    color: var(--bg-accent-color);
 }
