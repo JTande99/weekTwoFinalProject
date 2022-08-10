@@ -17,6 +17,8 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
@@ -115,12 +117,22 @@ ul li {
 
 .splash__content--clients {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .splash__content--client {
-    width: 25%;
-    padding: 4px;
+    width: 15%;
+    padding: 8px;
     filter: grayscale(100%);
+}
+
+.splash__content--figure {
+    width: 60%;
+}
+
+.splash__content--img {
+    padding: 8px;
+    width: 100%;
 }
