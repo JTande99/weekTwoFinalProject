@@ -247,6 +247,7 @@ FEATURES
 
 .feature__wrapper {
     width: 80%;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -254,4 +255,15 @@ FEATURES
 .feature__box {
     height: 120px;
     width: 30%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: start;
+}
+
+.feature__box i {
+    color: var(--text-color-primary);
+    font-size: 24px;
+    padding: 4px;
+    border: #aaa 1px solid;
+    display: flex;
 }
