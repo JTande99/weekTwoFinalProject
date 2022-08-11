@@ -29,6 +29,11 @@ header {
     padding: 80px 0;
 }
 
+i {
+    height: 100%;
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -75,6 +80,7 @@ h5 {
 
 .section__heading--title {
     font-size: 16px;
+    margin-bottom: 16px;
 }
 
 .section__heading--primary {
@@ -231,4 +237,21 @@ ul li {
 .splash__content--img {
     padding: 8px;
     width: 100%;
+}
+
+/*
+
+FEATURES
+
+*/
+
+.feature__wrapper {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature__box {
+    height: 120px;
+    width: 30%;
 }
