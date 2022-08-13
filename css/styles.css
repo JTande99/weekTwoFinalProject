@@ -6,6 +6,7 @@
     --header-text-primary: #1a202c;
     --para-text-primary: #243e63;
     --para-text-secondary: #7c8ba1;
+    --header-color-secondary: #243e63;
 }
 
 * {
@@ -98,6 +99,7 @@ h5 {
     font-size: 3rem;
     font-weight: 900;
     letter-spacing: .025rem;
+    color: var(--header-color-secondary);
 }
 
 .section__heading--para {
@@ -292,6 +294,7 @@ SERVICES
 
 .service__description h4 {
     font-size: 24px;
+    color: var(--header-color-secondary)
 }
 
 .service__description p{
