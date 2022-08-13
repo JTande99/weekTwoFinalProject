@@ -3,7 +3,9 @@
 :root {
     --text-color-primary: #6415ff;
     --bg-accent-color: #5011cc;
-
+    --header-text-primary: #1a202c;
+    --para-text-primary: #243e63;
+    --para-text-secondary: #7c8ba1;
 }
 
 * {
@@ -11,6 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    color: var(--para-text-primary);
 }
 
 .row {
@@ -19,6 +22,14 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--header-text-primary);
+}
+
+p {
+    line-height: 28px;
 }
 
 header {
@@ -241,7 +252,50 @@ ul li {
 
 /*
 
-FEATURES
+SERVICES
 
 */
 
+.services__wrapper {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    width: 30%;
+    padding: 32px 8px;
+    margin: 0 16px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.service__img {
+    position: relative;
+    top: 16px;
+    padding: 20px;
+    border: #ccc 1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.service__description {
+    margin: 8px 0 0 16px;
+}
+
+.service__description * {
+    margin-top: 16px;
+}
+
+.service__description h4 {
+    font-size: 24px;
+}
+
+.service__description p{
+    color: var(--para-text-secondary);
+    line-height: 32px;
+    font-weight: 500;
+}
