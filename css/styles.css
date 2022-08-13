@@ -7,6 +7,7 @@
     --para-text-primary: #243e63;
     --para-text-secondary: #7c8ba1;
     --header-color-secondary: #243e63;
+    --accent-color-one: #cbd5e0;
 }
 
 * {
@@ -15,6 +16,11 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     color: var(--para-text-primary);
+}
+
+.border--img {
+    border: #e2e2e2 1px solid;
+    border-radius: 8px; 
 }
 
 .row {
@@ -316,25 +322,23 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     display: flex;
-    padding: 32px 0;
+    justify-content: space-between;
+    padding: 96px 0;
 }
 
 .highlight__img,
 .highlight__description {
-    width: 50%;
+    width: calc((100% - 64px)/ 2);
 }
 
 .highlight__description {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right: 64px;
 }
 
 .highlight__img img {
     width: 100%;
-    border: #e2e2e2 1px solid;
-    border-radius: 8px;
 }
 
 .highlight__description--title {
