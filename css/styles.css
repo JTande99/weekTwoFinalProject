@@ -25,6 +25,10 @@
     justify-content: space-between;
 }
 
+.container {
+    padding: 80px 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--header-text-primary);
 }
@@ -35,10 +39,6 @@ p {
 
 header {
     width: 100%;
-}
-
-.container {
-    padding: 80px 0;
 }
 
 i {
@@ -59,12 +59,13 @@ a:hover {
     color: var(--text-color-primary);
 }
 
-/*
-figure img {
-    height: 100%;
-    width: 100%;
+button {
+    border: none;
+    background-color: var(--text-color-primary);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 9999px; /* Interesting that this makes the perfect curves for the button*/
 }
-*/
 
 h3 {
     font-weight: 900;
@@ -301,4 +302,59 @@ SERVICES
     color: var(--para-text-secondary);
     line-height: 32px;
     font-weight: 500;
+}
+
+/*
+
+HIGHLIGHTS
+
+*/
+
+.highlight__wrapper:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.highlight__wrapper {
+    display: flex;
+    padding: 32px 0;
+}
+
+.highlight__img,
+.highlight__description {
+    width: 50%;
+}
+
+.highlight__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 64px;
+}
+
+.highlight__img img {
+    width: 100%;
+    border: #e2e2e2 1px solid;
+    border-radius: 8px;
+}
+
+.highlight__description--title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--text-color-primary);
+}
+
+.highlight__description--header {
+    margin-top: 16px;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+}
+
+.highlight__description--button {
+    width: 148px;
+    padding: 12px 32px;
+    margin-top: 32px;
+    font-size: 14px;
+    line-height: 20px;
 }
