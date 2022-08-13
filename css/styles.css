@@ -8,6 +8,7 @@
     --para-text-secondary: #7c8ba1;
     --header-color-secondary: #243e63;
     --accent-color-one: #cbd5e0;
+    --text-accent-color: #718096;
 }
 
 * {
@@ -323,12 +324,13 @@ HIGHLIGHTS
 .highlight__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 96px 0;
 }
 
 .highlight__img,
 .highlight__description {
-    width: calc((100% - 64px)/ 2);
+    width: calc((100% - 64px)/ 2); /* Add a 64px wide margin between each figure and description in the .highlight__wrapper */
 }
 
 .highlight__description {
@@ -372,4 +374,34 @@ HIGHLIGHTS
     margin-top: 32px;
     font-size: 14px;
     line-height: 20px;
+}
+
+.step {
+    margin-top: 32px;
+    display: flex;
+}
+
+.step h3 {
+    font-size: 36px;
+    color: var(--accent-color-one);
+    font-weight: 600;
+}
+
+.step__description {
+    margin-left: 24px;
+    width: 50%;
+}
+
+.step__description h4 {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--para-text-primary);
+}
+
+.step__description p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 12px;
+    color: var(--text-accent-color);
+    font-weight: 500;
 }
