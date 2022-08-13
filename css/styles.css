@@ -344,11 +344,22 @@ HIGHLIGHTS
 }
 
 .highlight__description--header {
-    margin-top: 16px;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 1.2px;
     font-weight: 900;
+}
+
+.highlight__description--para {
+    font-size: 20px;
+    color: var(--para-text-secondary);
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.highlight__description--header,
+.highlight__description--para {
+    margin-top: 16px;
 }
 
 .highlight__description--button {
