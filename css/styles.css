@@ -458,7 +458,8 @@ PRICING PLANS / MEMBERSHIPS
 .pricing__container {
     width: 100%;
     display: flex;
+    flex-direction: column;
+    justify-items: center;
     align-items: center;
-    align-content: center;
 }
 
