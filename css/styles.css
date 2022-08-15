@@ -448,3 +448,17 @@ HIGHLIGHTS
     line-height: 26px;
     margin-top: 16px;
 }
+
+/*
+
+PRICING PLANS / MEMBERSHIPS
+
+*/
+
+.pricing__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
