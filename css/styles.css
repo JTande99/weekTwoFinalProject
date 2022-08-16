@@ -9,6 +9,7 @@
     --header-color-secondary: #243e63;
     --accent-color-one: #cbd5e0;
     --text-accent-color: #718096;
+    --gray-accent-text: #a0aec0;
 }
 
 * {
@@ -25,7 +26,7 @@
 }
 
 .row {
-    width: 100%;
+    width: 80%;
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -140,7 +141,7 @@ nav {
     padding-right: 8px;
 }
 
-ul li {
+.nav__link {
     list-style-type: none;
     padding-left: 32px;
 }
@@ -463,3 +464,93 @@ PRICING PLANS / MEMBERSHIPS
     align-items: center;
 }
 
+.pricing__tiers--wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    margin-top: 8px;
+    width: 384px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: lightgrey 1px solid;
+    box-shadow: 0 0 20px 2px #d1d1d1;
+}
+
+.plan__top--border {
+    height: 8px;
+    width: 100%;
+}
+
+.border--1,
+.plan__purchase--button-1 {
+    background-image: linear-gradient(90deg, #39B3AC, #81E6D9);
+}
+
+.plan__box {
+    border-bottom: lightgray 1px solid;
+    border-top: none;
+    width: 100%;
+}
+
+.plan__box--price {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan--title {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.plan--price {
+    font-size: 48px;
+    margin: 4px 0;
+    line-height: 78px;
+}
+
+.monthly {
+    font-size: 16px;
+    color: var(--gray-accent-text);
+    text-transform: uppercase;
+}
+
+.plan__box--feature {
+    padding: 32px;
+}
+
+.plan--subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.feature__list--item {
+    margin-top: 20px;
+    text-align: center;
+    list-style-type: none;
+    font-weight: 500;
+    color: var(--text-accent-color);
+}
+
+.plan__box--purchase {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.plan__purchase--button {
+    width: 192px;
+    height: 50px;
+    padding: 16px 32px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
