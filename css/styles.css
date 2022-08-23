@@ -556,7 +556,7 @@ PRICING PLANS / MEMBERSHIPS
 }
 
 .plan-mid {
-    background-image: linear-gradient(45deg, #4C52BF, #667DEA);
+    background-image: linear-gradient(45deg, #000569, #667DEA);
 }
 
 .plan-mid h4,
@@ -573,3 +573,14 @@ PRICING PLANS / MEMBERSHIPS
     background-color: #fff;
     color: #4B10B3;
 }
+
+.border--3,
+.plan__purchase--button-3 {
+    background-image: linear-gradient(90deg,#F66666, #FDADAD);
+}
+
+/*
+
+TESTIMONIALS
+
+*/
