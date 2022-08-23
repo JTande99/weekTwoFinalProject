@@ -37,6 +37,10 @@
     padding: 80px 0;
 }
 
+.gutter {
+    width: 64px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--header-text-primary);
 }
@@ -584,3 +588,12 @@ PRICING PLANS / MEMBERSHIPS
 TESTIMONIALS
 
 */
+
+.testimonial__img,
+.testimonial__description {
+    width: 50%;
+}
+
+.testimonial__img img {
+    width: 100%;
+}
