@@ -554,3 +554,22 @@ PRICING PLANS / MEMBERSHIPS
     font-size: 16px;
     text-transform: uppercase;
 }
+
+.plan-mid {
+    background-image: linear-gradient(45deg, #4C52BF, #667DEA);
+}
+
+.plan-mid h4,
+.plan-mid h2 {
+    color: #fff;
+}
+
+.plan-mid h5,
+.plan-mid li {
+    color: #E2E8F0;
+}
+
+.plan__purchase--button-2 {
+    background-color: #fff;
+    color: #4B10B3;
+}
