@@ -41,6 +41,10 @@
     width: 64px;
 }
 
+figure img {
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--header-text-primary);
 }
@@ -77,6 +81,10 @@ button {
     color: #fff;
     font-weight: 700;
     border-radius: 9999px; /* Interesting that this makes the perfect curves for the button*/
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 h3 {
@@ -589,6 +597,12 @@ TESTIMONIALS
 
 */
 
+.testimonial__wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 .testimonial__img,
 .testimonial__description {
     width: 50%;
@@ -629,6 +643,10 @@ TESTIMONIALS
     margin: 0 auto;
 }
 
+.testimonial__example h4 {
+    font-size: 20px;
+}
+
 .testimonial-rating {
     display: flex;
     padding-bottom: 16px;
@@ -639,8 +657,59 @@ TESTIMONIALS
     color: #F6AD55;
 }
 
+.example__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.example__person {
+    display: flex;
+    align-items: center;
+}
+
 .person__img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+
+.person__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 8px;
+}
+
+.person__title h4 {
+    color: #243E63;
+    font-size: 20px;
+}
+
+.person__title h5 {
+    color: #7c8ba1;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 600;
+}
+
+.example__buttons {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 4px;
+}
+
+.example__buttons button {
+    background-color: #E2E8F0;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    padding: 16px;
+    margin: 0 12px;
+}
+
+.example__buttons button i {
+    color: var(--text-color-primary);
 }
