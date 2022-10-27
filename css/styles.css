@@ -713,3 +713,43 @@ TESTIMONIALS
 .example__buttons button i {
     color: var(--text-color-primary);
 }
+
+/*
+
+FAQs
+
+*/
+
+.faq__wrapper {
+    margin: 0 auto;
+    width: ;
+}
+
+.faq__header {
+    width: 576px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.faq__header h5 {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color-primary);
+    padding-bottom: 16px;
+}
+
+.faq__header h2{
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.faq__header p {
+    text-align: center;
+}
