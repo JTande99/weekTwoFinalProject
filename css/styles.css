@@ -111,6 +111,12 @@ h5 {
     justify-content: space-between;
 }
 
+/*
+
+CSS for headings; can be adjusted, and SHOULD be!
+
+*/
+
 .section__heading--title {
     font-size: 16px;
     margin-bottom: 16px;
@@ -722,7 +728,6 @@ FAQs
 
 .faq__wrapper {
     margin: 0 auto;
-    width: ;
 }
 
 .faq__header {
