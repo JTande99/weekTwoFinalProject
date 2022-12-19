@@ -783,7 +783,7 @@ FOOTER
 */
 
 footer {
-    background-color: #6415FF;
+    background-color: #6415ff;
     color: white;
     margin-top: 80px;
 }
@@ -794,6 +794,29 @@ footer {
     width: 100%;
 }
 
-.footer__link-list--wrapper {
+.footer__link-list--heading {
+    margin: 12px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.footer__link-list--heading, .footer__link-list li a {
     color: white;
+}
+
+.footer__link-list li {
+    list-style-type: none;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer__link-list li a {
+    padding-bottom: 2px;
+    border-bottom: 2px #6415ff solid;
+    transition: all 250ms ease;
+}
+
+.footer__link-list li a:hover {
+    border-bottom: 2px  white solid;
 }
