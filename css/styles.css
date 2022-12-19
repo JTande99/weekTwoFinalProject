@@ -722,7 +722,7 @@ TESTIMONIALS
 
 /*
 
-FOOTER
+SUB-FOOTER
 
 */
 
@@ -776,3 +776,13 @@ FOOTER
     color: #f8f8f8;
 }
 
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #6415FF;
+    color: white;
+}
