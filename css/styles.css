@@ -785,4 +785,15 @@ FOOTER
 footer {
     background-color: #6415FF;
     color: white;
+    margin-top: 80px;
+}
+
+.footer__links--wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer__link-list--wrapper {
+    color: white;
 }
