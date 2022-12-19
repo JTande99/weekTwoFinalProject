@@ -808,15 +808,16 @@ footer {
     list-style-type: none;
     padding: 8px 0;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .footer__link-list li a {
-    padding-bottom: 2px;
+    padding-bottom: 8px;
     border-bottom: 2px #6415ff solid;
     transition: all 250ms ease;
 }
 
 .footer__link-list li a:hover {
     border-bottom: 2px  white solid;
+    padding-bottom: 2px;
 }
