@@ -784,6 +784,7 @@ FOOTER
 
 footer {
     background-color: var(--text-color-primary);
+    margin-top: 100px;
 }
 
 footer * {
@@ -853,6 +854,20 @@ footer * {
     padding-right: 8px;
 }
 
-.footer__closer--title {
-    
+.footer__logo--title {
+    letter-spacing: 1px;
+}
+
+.footer__closer--button {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.footer__closer--button i {
+    color: #000;
+    width: 100%;
+    height: 100%;
 }
