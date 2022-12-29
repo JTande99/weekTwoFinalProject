@@ -792,6 +792,8 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-bottom: 60px;
+    border-bottom: 1px dotted #ff2Ddd;
 }
 
 .footer__link-list--heading {
