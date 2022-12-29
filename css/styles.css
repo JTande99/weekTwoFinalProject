@@ -816,3 +816,31 @@ footer * {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.footer__link--list-item {
+    list-style-type: none;
+}
+
+.footer__link--bullet {
+    border-bottom: 2px solid var(--text-color-primary);
+    padding-bottom:  4px;
+    transition: all 300ms ease;
+}
+
+.footer__link--bullet:hover {
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    color: white;
+}
+
+.footer__closer--wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__closer--one, 
+.footer__closer--two, 
+.footer__closer--three {
+    display: flex;
+}
