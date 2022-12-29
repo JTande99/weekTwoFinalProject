@@ -791,7 +791,28 @@ footer * {
 }
 
 .footer__content--wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column; /* Contains two children */
+    justify-content: space-between;
+}
+
+.footer__links--wrapper {
+    width: 100%;
+    border-bottom: 1px dotted maroon;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list--header {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.footer__link--list {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
