@@ -782,3 +782,10 @@ FOOTER
 
 */
 
+footer {
+    background-color: var(--text-color-primary);
+}
+
+footer * {
+    color: white;
+}
