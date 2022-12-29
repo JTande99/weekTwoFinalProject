@@ -789,3 +789,9 @@ footer {
 footer * {
     color: white;
 }
+
+.footer__content--wrapper {
+    display: flex;
+    flex-direction: column; /* Contains two children */
+    justify-content: space-between;
+}
