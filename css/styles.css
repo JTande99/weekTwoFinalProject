@@ -835,12 +835,24 @@ footer * {
 
 .footer__closer--wrapper {
     width: 100%;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer__closer--one, 
 .footer__closer--two, 
 .footer__closer--three {
     display: flex;
+    align-items: center;
+}
+
+.footer__closer--logo {
+    height: 44px;
+    padding-right: 8px;
+}
+
+.footer__closer--title {
+    
 }
