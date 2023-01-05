@@ -881,3 +881,24 @@ Responsiveness
 
 */
 
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+    
+    .nav__link--list {
+        display: none;
+    }
+
+    .splash__content--wrapper {
+        width: 100%;
+    }
+
+    .splash__content--header {
+        font-size: 1.875rem;
+    }
+}
