@@ -894,11 +894,19 @@ Responsiveness
         display: none;
     }
 
-    .splash__content--wrapper {
+    .splash__content--wrapper,
+    .splash__content--figure {
         width: 100%;
     }
 
     .splash__content--header {
         font-size: 1.875rem;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .splash__content--para {
+        text-align: center;
+        margin: 16px 0;
     }
 }
