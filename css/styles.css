@@ -909,4 +909,40 @@ Responsiveness
         font-size: 1rem;
         line-height: 24px;
     }
+
+    .splash__content--form {
+        width: 448px;
+        margin: 20px auto;
+    }
+
+    .splash__content--clientele {
+        margin-top: 24px;
+    }
+
+    .splash__content--clientele h5 {
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .splash__content--clients {
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .splash__content--client {
+        padding: 0;
+    }
+
+    .splash__content--figure {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    /*
+    
+    Resp: FEATURES
+
+    */
+
+    
 }
