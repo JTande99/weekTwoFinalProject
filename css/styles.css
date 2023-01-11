@@ -886,6 +886,7 @@ Responsiveness
 
     .row {
         flex-direction: column;
+        width: 90%;
     }
     
     .nav__link--list {
@@ -944,5 +945,19 @@ Responsiveness
 
     */
 
-    
+    .section__heading--wrapper {
+        width: 100%;
+    }
+
+    .section__heading--para {
+        width: 90%;
+    }
+
+    .services__wrapper {
+        width: 100%;
+    }
+
+    .service {
+        width: 45%;
+    }
 }
