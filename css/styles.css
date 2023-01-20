@@ -345,7 +345,7 @@ HIGHLIGHTS
 
 .highlight__img,
 .highlight__description {
-    width: calc((100% - 64px)/ 2); /* Add a 64px wide margin between each figure and description in the .highlight__wrapper */
+    width: calc((100% - 64px) / 2); /* Add a 64px wide margin between each figure and description in the .highlight__wrapper */
 }
 
 .highlight__description {
@@ -960,4 +960,52 @@ Responsiveness
     .service {
         width: 45%;
     }
+
+    /*
+    
+    Resp: HIGHLIGHTS
+    
+    */
+
+    .highlight__wrapper {
+        gap: 32px;
+    }
+
+    .highlight__img {
+        width: 55%;
+    }
+
+    .highlight__description {
+        width: 45%;
+    }
+
+    .highlight__description--header {
+        font-size: 36px;
+        line-height: 2.8rem;
+    }
+
+    .highlight__description--para {
+        font-size: 16px;
+    }
+
+    .step__description {
+        width: 70%;
+    }
+
+    .values__wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .value {
+        width: 100%;
+    }
+
+    /*
+    
+    Resp: MEMBERSHIPS
+    
+    */
+
+    
 }
