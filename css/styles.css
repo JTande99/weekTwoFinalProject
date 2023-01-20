@@ -38,10 +38,6 @@
     width: 100vw;
 }
 
-.gutter {
-    width: 64px;
-}
-
 figure img {
     width: 100%;
 }
@@ -637,6 +633,7 @@ TESTIMONIALS
     font-size: 48px;
     margin-top: 16px;
     line-height: 60px;
+    font-weight: 800;
 }
 
 .testimonial__description p {
@@ -1012,5 +1009,25 @@ Responsiveness
         flex-direction: column;
         margin: 0 auto;
         gap: 32px;
+    }
+
+    /*
+    
+    Resp: TESTIMONIALS
+    
+    */
+
+    .testimonial__description h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .testimonial__description p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .person__title h4 {
+
     }
 }
