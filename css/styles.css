@@ -487,6 +487,7 @@ PRICING PLANS / MEMBERSHIPS
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .plan {
@@ -1007,5 +1008,9 @@ Responsiveness
     
     */
 
-    
+    .pricing__tiers--wrapper {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 32px;
+    }
 }
