@@ -1065,6 +1065,7 @@ Responsiveness
 
     .sub-footer__box--purple {
         flex-direction: column;
+        height: 320px;
     }
 
     .sub-footer__box--heading {
