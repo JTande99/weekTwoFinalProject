@@ -156,7 +156,8 @@ nav {
     padding-right: 8px;
 }
 
-.nav__link {
+.nav__link,
+.nav__mobile--link {
     list-style-type: none;
     padding-left: 32px;
 }
@@ -189,6 +190,14 @@ nav {
 .nav__account--button:hover {
     background-color: #fff;
     color: var(--bg-accent-color);
+}
+
+.nav__menu--button {
+    display: none;
+}
+
+.nav__menu--card {
+    display: none;
 }
 
 /* SPLASH SCREEN */
@@ -895,6 +904,49 @@ Responsiveness
     
     .nav__link--list {
         display: none;
+    }
+
+    .nav__menu--button {
+        display: block;
+    }
+
+    .nav__menu--card {
+        display: none;
+        position: fixed;
+        top: 32px;
+        width: 90vw;
+        height: auto;
+        padding: 32px 0;
+        border: 1px lightgray solid;
+        z-index: 2;
+        background-color: white;
+    }
+
+    .nav__mobile--links {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .nav__mobile--link {
+        padding: 12px 0;
+    }
+
+    .nav__menu--button {
+        font-size: 20px;
+    }
+
+    .nav__mobile--anchor {
+        font-size: 1.125rem;
+    }
+
+    .nav__account--button {
+        margin-top: 10000px;
+    }
+
+    .nav__link--final {
+        margin: 16px 0;
     }
 
     .splash__content--wrapper,
