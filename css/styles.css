@@ -697,6 +697,8 @@ TESTIMONIALS
     font-size: 16px;
     text-transform: none;
     font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
 }
 
 .example__buttons {
@@ -882,6 +884,10 @@ Responsiveness
 
 @media (max-width: 768px) {
 
+    .container {
+        padding: 48px 0;
+    }
+
     .row {
         flex-direction: column;
         width: 90%;
@@ -1017,6 +1023,18 @@ Responsiveness
     
     */
 
+    .testimonial__wrapper {
+        justify-content: space-between;
+    }
+
+    .testimonial__img {
+        width: 45%;
+    }
+
+    .testimonial__description {
+        width: 50%;
+    }
+
     .testimonial__description h2 {
         font-size: 40px;
         line-height: 48px;
@@ -1027,7 +1045,29 @@ Responsiveness
         line-height: 24px;
     }
 
-    .person__title h4 {
+    .person__title {
+        padding-left: 12px;
+    }
 
+    .person__title h4 {
+        font-size: 16px;
+    }
+
+    .person__title h5 {
+        font-size: 14px;
+    }
+
+    /*
+    
+    Resp: SUB-FOOTER
+    
+    */
+
+    .sub-footer__box--purple {
+        flex-direction: column;
+    }
+
+    .sub-footer__box--heading {
+        text-align: center;
     }
 }
