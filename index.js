@@ -1,5 +1,5 @@
 function openMenu() {
-    document.querySelector('.nav__menu--card').style.display = 'fixed'
+    document.querySelector('.nav__menu--card').style.display = 'flex';
 }
 
 function closeMenu() {

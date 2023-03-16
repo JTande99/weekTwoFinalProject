@@ -922,6 +922,14 @@ Responsiveness
         background-color: white;
     }
 
+    .close__menu--button {
+        position: absolute;
+    }
+
+    .close__menu--button i {
+        color: #000;
+    }
+
     .nav__mobile--links {
         display: flex;
         flex-direction: column;
@@ -929,7 +937,7 @@ Responsiveness
         align-items: center;
     }
 
-    .nav__mobile--lin                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                k {
+    .nav__mobile--links li {
         padding: 12px 0;
     }
 
@@ -948,10 +956,6 @@ Responsiveness
 
     .nav__mobile--anchor {
         font-size: 1.125rem;
-    }
-
-    .nav__account--button {
-        margin-top: 10000px;
     }
 
     .nav__link--final {
