@@ -192,7 +192,8 @@ nav {
     color: var(--bg-accent-color);
 }
 
-.nav__menu--button {
+.nav__menu--button,
+.nav__menu--close {
     display: none;
 }
 
@@ -908,6 +909,10 @@ Responsiveness
 
     .nav__menu--button {
         display: block;
+        font-size: 20px;
+        background-color: white;
+        font-weight: 800;
+        border-radius: 9999px;
     }
 
     .nav__menu--card {
@@ -922,12 +927,9 @@ Responsiveness
         background-color: white;
     }
 
-    .close__menu--button {
-        position: absolute;
-    }
-
-    .close__menu--button i {
-        color: #000;
+    .nav__menu--close {
+        z-index: 3;
+        display: none;
     }
 
     .nav__mobile--links {
@@ -939,13 +941,6 @@ Responsiveness
 
     .nav__mobile--links li {
         padding: 12px 0;
-    }
-
-    .nav__menu--button {
-        font-size: 20px;
-        background-color: white;
-        font-weight: 800;
-        border-radius: 9999px;
     }
 
     .nav__menu--button div {
